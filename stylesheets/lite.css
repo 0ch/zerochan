@@ -1,0 +1,123 @@
+
+/* Ripped from anarcho.neocities.org for static pages */
+
+body{
+  background: #161616;
+  color: #969696;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 10pt;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  max-width: 500px;
+}
+
+h1 {
+  color: #900000;
+  font-size: 25px;
+  font-family: "Lucida Console", Monaco, monospace;
+  
+}
+
+h2 {
+  font-size: 14px;
+  color: #900000;
+}
+
+p {
+  color: #969696;
+  
+}
+
+div {
+  display: block;
+  background-color:#0F0F0F;
+  color: #969696;
+  padding: 1px 10px 1px 10px;
+  margin: 35px auto;
+  max-width: 620px;  
+
+}
+
+.gen {
+  background-color:#0F0F0F;
+  max-width: 100%;
+  color: #969696;
+  padding: 1px 10px 1px 10px;
+  margin: auto;
+  margin-top: 15px
+}
+
+
+.bar {
+  
+  display: table!important;
+  position: fixed;
+  width: 100%;
+  left: 0px;
+  z-index: 3;
+  background-color: #161616;
+  border-color: #141414;
+}
+.bar > :not(script) {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.bar.top {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  vertical-align: middle;
+  text-align: left;
+  border-bottom: 1px solid #141414;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;  
+  text-align: left;
+}
+
+a {
+    color: #AE0A0F;
+    
+}
+
+.sidebar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  float: left;
+  background-color:#0F0F0F;
+  color: #969696;
+  padding: 0px 10px 0px 10px;
+  max-width: 250px;
+  /*margin: 35px 35px 35px 35px;*/
+  
+}
+
+.middle {
+  position: relative;
+  left: 260px;
+  background-color:#0F0F0F;
+  color: #969696;
+  padding: 10px 10px 10px 10px;
+  margin: 35px 35px 35px 35px;
+  width: 80%;
+  height: 80%;
+  max-width: 1250px;
+
+}
+
+.banner {
+  margin-top: 30px;
+}
+
+/*ul {
+  margin-left: 1em;
+  list-style-position: inside;
+} */

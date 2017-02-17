@@ -1,0 +1,215 @@
+/*fauux.neocities.org mod of ferus by kalyx
+
+B332E6 = dark purp#d2738a = teal #d2738a = green
+
+rgb(193, 180, 146) = pink
+dark blue = 00080C
+*/
+
+body {
+	background: #000000;
+	color: rgb(193, 180, 146);
+	font-family: monospace;
+	font-size: 11px;
+}
+.bar
+{
+	background-color: #000;
+	border-color: #D2738A!important;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background-color: #000!important;
+}
+div.boardlist{
+	background-color: #000!important;
+
+}
+@font-face 
+{
+  font-family: 'lain';
+  src: url('./fonts/nrdyyh.woff') format('woff'),
+       url('./fonts/tojcxo.TTF') format('truetype');
+}
+h1 {
+	 font-family: monospace, Arial;
+	font-size: 18pt;
+	text-align: center;
+	letter-spacing: 0px;
+}
+div.title, h1 {
+	color: rgb(193, 180, 146);
+	font-family: lain, Helvetica, sans-serif;
+}
+header div.subtitle {
+color: #d2738a;
+text-align: center;
+}
+div.title p {
+	font-size: 13px;
+}
+a:link, a:visited, p.intro a.email span.name {
+	color: #d2738a;
+	text-decoration: underline;
+	font-family: monospace;
+}
+pre.prettyprint {
+background: #00080C;
+
+font-size: 12px;
+line-height: 1.5;
+border: 1px solid #d2738a;
+padding: 10px;
+}
+a:link:hover, a:visited:hover {
+	color: #d2738a;
+	font-family: monospace;;
+	text-decoration: underline overline;
+}
+strong {
+
+color: #d2738a;
+}
+a.post_no {
+	color: #d2738a;
+	text-decoration: none;
+}
+span.quote 
+{
+    color:#d2738a;
+}
+a.post_no:hover {
+	color: maroon;
+	text-decoration: underline overline;
+}
+div.post.reply {
+	background: #000000;
+	border: #d2738a 1px solid;
+	/*border-radius: 5px;*/
+}
+.de-pview {
+		background: rgba(14, 14, 14, 0.84) !important;
+}
+div.post.reply.highlighted {
+	background: transparent;
+	border: #EDC7D0 1px solid;
+}
+div.post.reply div.body a:link, div.post.reply div.body a:visited {
+	color: #646464;
+}
+div.post.reply div.body a:link:hover, div.post.reply div.body a:visited:hover {
+	color: #d2738a;
+}
+p.intro span.subject {
+	font-size: 10px;
+	font-family: monospace;
+	color: #d2738a;
+	font-weight: 800;
+}
+p.intro span.name {
+	color: #d2738a;
+	font-weight: 900;
+}
+p.intro a.capcode, p.intro a.nametag {
+	color: #d2738a;
+	margin-left: 0;
+}
+p.intro a.email, p.intro a.email span.name, p.intro a.email:hover, p.intro a.email:hover span.name {
+	color: #d2738a;
+	font-family: monospace;
+}
+input[type="text"], textarea, select {
+	background: #00080C;
+	color: #CCCCCC;
+	border: #d2738a 1px solid;
+	padding-left: 5px;
+	padding-right: -5px;
+	font-family: monospace;
+	font-size: 10pt;
+		/*border-radius: 5px;*/
+}
+input[type="password"] {
+	background: #00080C;
+	color: #CCCCCC;
+	border: #d2738a 1px solid;
+		/*border-radius: 5px;*/
+}
+form table tr th {
+	background: #00080C;
+	color: #d2738a;
+	border: #d2738a 1px solid;
+	font-weight: 800;
+	text-align: left;
+	padding: 0;
+		/*border-radius: 5px;*/
+}
+div.sidearrows{display:none;}
+
+div.banner {
+	background: #000000;
+	color: #d2738a;
+	text-align: center;
+	width: 250px;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+
+}
+input[type="submit"] {
+	background: #00080C;
+	color: #d2738a;
+	border: #d2738a 1px solid;
+		/*border-radius: 5px;*/
+}
+input[type="submit"]:hover {
+	background: #00080C;
+
+	border: #d2738a 1px solid;
+
+	color: rgb(193, 180, 146);
+		/*border-radius: 5px;*/
+}
+p.fileinfo a:hover {
+	text-decoration: underline;
+}
+span.trip {
+	color: #AAAAAA;
+}
+.topbar {
+	background-color: black;
+	border-bottom: 1px solid #d2738a;
+}
+div.pages {
+	color: #AAAAAA;
+	background: #333333;
+	border: #d2738a 1px solid;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+div.pages a.selected {
+	color: #8C8C8C;
+}
+hr {
+	height: 1px;
+	border: #d2738a 1px solid;
+}
+div.boardlist {
+	font-size: 10pt;
+	color: #999999;
+}
+div.ban {
+	background-color: transparent;
+	border: transparent 0px solid;
+}
+div.ban h2 {
+	background: transparent;
+	color: lime;
+	font-size: 11px;
+}
+table.modlog tr th {
+	background: rgb(193, 180, 146);
+	color: #AAAAAA;
+}

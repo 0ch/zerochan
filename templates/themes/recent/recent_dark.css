@@ -1,0 +1,79 @@
+@import url("/stylesheets/dark.css");
+/*body {
+    color: #CCCCCC;
+    background: #1E1E1E;
+}
+
+header div.subtitle, h1 {
+    color: #32DD72;
+}
+*/
+
+/*a:link, a:visited, p.intro a.email span.name {
+        color: #CCCCCC;
+        text-decoration: none;
+        font-family: sans-serif;
+	transition: text-shadow 0.15s ease 0s color 0.15s ease 0s;
+}*/
+/*a:link:hover, a:visited:hover {
+	color: #32DD72;
+        font-family: sans-serif;
+        text-decoration: none;
+	text-shadow: 0px 0px 5px #FFF;
+}
+*/ 
+.box-wrap {
+        max-width: 670px;
+        min-width: 332px;
+        margin: 0px auto 30px auto;
+        overflow: auto;
+        padding: 0;
+}
+.box {
+        background: transparent;
+        border: 1px solid #555555;
+        width: 330px;
+        margin: 8px 0 0 0;
+        padding: 0;
+	-webkit-border-radius: 2px;
+        -khtml-border-radius: 2px;
+        -moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+        border-radius: 2px;
+}
+.box ul {
+        padding: 2px 15px;;
+}
+.box ul li {
+        list-style: none;
+        margin: 0;
+}
+
+.box.left {
+        float: left;
+}
+.box.left ul {
+	text-align: center;
+}
+.box.right {
+        float: right;
+}
+.box strong {
+	color: #32DD72;
+} 
+.box h2 {
+        padding: 3px 7px;
+        font-size: 12pt;
+        border-bottom: #555555 1px solid;
+	color: #32DD72;
+	background: #333333;
+}
+.box img {
+        float: none;
+	box-sizing: border-box;
+
+}
+.box li:not(:nth-child(1)) img {
+	margin-top: 12px;
+}

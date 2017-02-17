@@ -1,0 +1,21 @@
+/**
+ * dark.css, purple extension
+ * Clumps all rules into three rules to determine the new accent color
+ */
+
+@import url("/stylesheets/dark.css");
+
+span.quote {
+	color:#A6D2FF!important;
+}
+
+div.blotter, h1, h2, header div.subtitle, div.title, a:link:hover, a:visited:hover p.intro a.post_no:hover, 
+div.post.reply div.body a:link:hover, div.post.reply div.body a:visited:hover, p.intro span.name,
+p.intro a.email, p.intro a.email span.name, p.intro a.email:hover, p.intro a.email:hover span.name,
+input[type="submit"]:hover, div.ban h2 {
+	color: #8725EC;
+}
+
+p.intro span.subject {
+	color: #664445;
+}

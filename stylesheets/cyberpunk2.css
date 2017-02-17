@@ -1,0 +1,241 @@
+/*cyberpunk mod of ferus by kalyx
+
+B332E6 = dark purp
+33cccc = teal 
+00ff00 = green
+FF46D2 = pink
+dark blue = 00080C
+*/
+
+body {
+	background: #0C0001;
+	color: #FF46D2;
+	font-family: monospace;
+	font-size: 11px;
+	/*text-shadow: 0px 0px 3px #FF46D2;*/
+}
+@font-face 
+{
+  font-family: 'lain';
+  src: url('./fonts/nrdyyh.woff') format('woff'),
+       url('./fonts/tojcxo.TTF') format('truetype');
+}
+h1 {
+	 font-family: monospace, Arial;
+	font-size: 18pt;
+	text-align: center;
+	letter-spacing: 0px;
+}
+div.title, h1 {
+	color: #FF46D2;
+	font-family: lain, Helvetica, sans-serif;
+}
+header div.subtitle {
+color: #00ff00;
+text-align: center;
+	text-shadow: 0px 0px 3px #00ff00;
+}
+div.title p {
+	font-size: 13px;
+}
+a:link, a:visited, p.intro a.email span.name {
+	color: #00ff00;
+text-shadow: 0px 0px 10px #00ff00;
+	font-family: monospace;
+}
+pre.prettyprint {
+background: #00080C;
+
+font-size: 12px;
+line-height: 1.5;
+border: 1px solid #33cccc;
+padding: 10px;
+}
+
+a:link, a:visited, p.intro a.email span.name
+{
+        -moz-transition: 0.15s text-shadow, 0.15s color;
+	-webkit-transition: 0.15s text-shadow, 0.15s color;
+	-khtml-transition: 0.15s text-shadow, 0.15s color;
+	-o-transition: 0.15s text-shadow, 0.15s color;
+	-ms-transition: 0.15s text-shadow, 0.15s color;
+	transition: 0.15s text-shadow, 0.15s color;
+}
+input[type="text"], textarea 
+{
+	-moz-transition: 0.15s border-color;
+	-webkit-transition: 0.15s border-color;
+	-khtml-transition: 0.15s border-color;
+	-o-transition: 0.15s border-color;
+	-ms-transition: 0.15s border-color;
+	transition: 0.15s border-color;
+}
+input[type="submit"] 
+{
+	-moz-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+	-webkit-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+	-khtml-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+	-o-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+	-ms-transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+	transition: 0.15s border-color, 0.15s background-color, 0.15s color;
+}
+
+
+a:link:hover, a:visited:hover {
+	color: #00ff00;
+	font-family: monospace;;
+	text-shadow: 0px 0px 10px #00ff00;
+}
+strong {
+
+color: #00ff00;
+}
+a.post_no {
+	color: #33cccc;
+	text-decoration: none;
+}
+span.quote 
+{
+    color:#00ff00;
+}
+a.post_no:hover {
+	color: maroon;
+	/*text-decoration: underline overline;*/
+}
+div.post.reply {
+	background: #0C0001;
+	border: #33cccc 2px solid !important;
+	border-radius: 5px;
+}
+.de-pview {
+		background: rgba(14, 14, 14, 0.84) !important;
+}
+div.post.reply.highlighted {
+	background: transparent;
+	border: #33cccc 2px solid;
+}
+div.post.reply div.body a:link, div.post.reply div.body a:visited {
+	color: #646464;
+}
+div.post.reply div.body a:link:hover, div.post.reply div.body a:visited:hover {
+	color: #00ff00;
+}
+p.intro span.subject {
+	font-size: 12px;
+	font-family: monospace;
+	color: #00ff00;
+	font-weight: 800;
+		text-shadow: 0px 0px 3px #00ff00;
+}
+p.intro span.name {
+	color: #00ff00;
+	font-weight: 900;
+		text-shadow: 0px 0px 3px #00ff00;
+}
+p.intro a.capcode, p.intro a.nametag {
+	color: #00ff00;
+	margin-left: 0;
+}
+p.intro a.email, p.intro a.email span.name, p.intro a.email:hover, p.intro a.email:hover span.name {
+	color: #00ff00;
+	font-family: monospace;
+}
+input[type="text"], textarea, select {
+	background: #00080C;
+	color: #CCCCCC;
+	border: #33cccc 1px solid;
+	padding-left: 5px;
+	padding-right: -5px;
+	font-family: monospace;
+	font-size: 10pt;
+		border-radius: 5px;
+}
+input[type="password"] {
+	background: #00080C;
+	color: #CCCCCC;
+	border: #33cccc 1px solid;
+		border-radius: 5px;
+}
+form table tr th {
+	background: #00080C;
+	color: #00ff00;
+	border: #33cccc 1px solid;
+	font-weight: 800;
+	text-align: left;
+	padding: 0;
+		border-radius: 5px;
+			text-shadow: 0px 0px 3px #00ff00;
+}
+div.sidearrows{display:none;}
+
+div.banner {
+	background: #0C0001;
+	color: #00ff00;
+	text-align: center;
+	width: 250px;
+	padding: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 12px;
+		text-shadow: 0px 0px 3px #00ff00;
+
+}
+input[type="submit"] {
+	background: #00080C;
+	color: #00ff00;
+	border: #33cccc 1px solid;
+		border-radius: 5px;
+}
+input[type="submit"]:hover {
+	background: #00080C;
+
+	border: #33cccc 1px solid;
+
+	color: #FF46D2;
+		border-radius: 5px;
+}
+p.fileinfo a:hover {
+	text-decoration: underline;
+}
+span.trip {
+	color: #AAAAAA;
+}
+.topbar {
+	background-color: black;
+	border-bottom: 1px solid #33cccc;
+}
+div.pages {
+	color: #AAAAAA;
+	background: #333333;
+	border: #33cccc 1px solid;
+	font-family: sans-serif;
+	font-size: 10pt;
+}
+div.pages a.selected {
+	color: #8C8C8C;
+}
+hr {
+	height: 0px;
+	border: #33cccc 1px solid;
+}
+div.boardlist {
+	font-size: 10pt;
+	color: #999999;
+}
+div.ban {
+	background-color: transparent;
+	border: #33cccc 1px solid;
+}
+div.ban h2 {
+	background: transparent;
+	color: #00ff00;
+	font-size: 11px;
+		text-shadow: 0px 0px 3px #00ff00;
+}
+table.modlog tr th {
+	background: #FF46D2;
+	color: #AAAAAA;
+		/*text-shadow: 0px 0px 3px #00ff00;*/
+}

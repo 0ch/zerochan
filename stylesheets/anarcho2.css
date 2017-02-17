@@ -1,0 +1,82 @@
+-webkit-transform: rotate(-180deg);
+transform: rotate(-180deg);}
+*{border-radius:10px; color:red; font-family:"Comic Sans MS", cursive, sans-serif;
+ -webkit-filter:hue-rotate(90deg);}
+.post-image{-ms-transform: rotate(7deg);
+-webkit-transform: rotate(7deg);
+transform: rotate(7deg);
+}
+*:hover{   -webkit-animation-name: 3d;-webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+  animation-name: 3d;animation-name: myfirst;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+-ms-transform: rotate(180deg);
+-webkit-transform: rotate(180deg);
+transform: rotate(180deg);
+}
+img {-webkit-filter:contrast(4); filter:contrast(4);}
+
+
+
+.heading{ position:relative;   /* Chrome, Safari, Opera */
+    -webkit-animation-name: myfirst;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+    animation-name: myfirst;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    0%   {background:red; left:0px; top:0px;}
+    25%  {background:yellow; left:200px; top:0px;}
+    50%  {background:blue; left:200px; top:200px;}
+    75%  {background:green; left:0px; top:200px;}
+    100% {background:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    0%   {background:red; left:0px; top:0px;}
+    25%  {background:yellow; left:200px; top:0px;}
+    50%  {background:blue; left:200px; top:200px;}
+    75%  {background:green; left:0px; top:200px;}
+    100% {background:red; left:0px; top:0px;}
+}
+.flag flag-nl{height:50px; width:50px;}
+.styles{position:fixed; top:-10000;}
+
+*{cursor:url(i.imgur.com/8XMo8oe.png),progress!important;}
+
+.post reply{!important; direction: rtl;
+unicode-bidi: bidi-override;}
+
+@keyframes 3d {
+    0%   {transform: rotateX(0deg);}
+    50%  {transform: rotateX(180deg);}
+    100% {transform: rotateX(360deg);}
+}
+
+@-webkit-keyframes 3d {
+    0%   {-webkit-transform: rotateX(0deg);}
+    50%  {-webkit-transform: rotateX(180deg);}
+    100% {-webkit-transform: rotateX(360deg);}
+}
