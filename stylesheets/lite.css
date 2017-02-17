@@ -41,6 +41,10 @@ div {
 
 }
 
+li {
+  margin: 0 0 6px 0;
+}
+
 .gen {
   background-color:#0F0F0F;
   max-width: 100%;
