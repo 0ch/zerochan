@@ -588,6 +588,7 @@ if (isset($_POST['delete'])) {
 	$post['body'] = $_POST['body'];
 	$post['password'] = $_POST['password'];
 	$post['has_file'] = (!isset($post['embed']) && (($post['op'] && !isset($post['no_longer_require_an_image_for_op']) && $config['force_image_op']) || count($_FILES) > 0));
+    // TODO(o2r): Prohibit file uploads from Tor.
 	
 	if (!$dropped_post) {
 
